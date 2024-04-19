@@ -2,10 +2,16 @@
                 Global CSS 
 ======================================= */
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');/*Flowers*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');/*exo 2*/
+
+/* global */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
 }
 
 /* =======================================
@@ -15,6 +21,10 @@
 nav {
     display : flex;
     justify-content: space-between;
+}
+
+nav h2 {
+    font-family: "Dancing Script", cursive;
 }
 
 nav ul {
